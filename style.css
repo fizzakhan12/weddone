@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.ul1{
+    border: 1px solid black;
+}
+.card:hover{
+    box-shadow: 5px 5px 5px grey;
+    top: -10px;
+
+}
+.card-title{
+    text-align: center;
+}
+.card{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  .container1{
+      background-color:rgb(192,192,192,0.5);
+      
+  }
+  .follow{
+      text-align: end;
+  }
+
+  .nav1:hover{
+    
+    border-bottom:  solid aqua;
+    line-height: 20px;
+    padding-left: 5px;
+    
+}
+.nav1{
+    margin-right: 10px;
+}
+.icons{
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.icons:hover{
+        top: -10px;
+
+}
+
+.checked {
+    color: orange;
+  }
+  
+  .last{
+    color:lightslategray;
+}
+.chev{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 30px;
+    background-color: steelblue;
+}
+*{
+    scroll-behavior:smooth;
+    }
+    .ul1{
+        
+        height: 50px ;
+        text-align: center;
+        list-style: none;
+        margin-bottom: 20px;
+        border: 2px solid black !important;
+        position: relative;
+        box-shadow: 5px 5px 0px grey;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top:5px;
+    top: 0;
+
+    transition: top ease 0.5s;
+    
+    }
+    .ul1:hover{
+        background-color:orange;
+        color: white;
+
+
+        
+        top: -10px;
+    
+        
+    }
+    .list2:hover{
+        color: white;
+        text-decoration: none;
+        
+    }
+    .list2{ 
+        text-decoration: none;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: white !important;
+       
+        
+    }
+.fm1{ 
+    width: 400px !important; 
+    margin: auto;
+}  
+@media (max-width: 470px){
+    .fm1{
+        width: 100% !important;
+        margin: auto;
+    }  
+       }

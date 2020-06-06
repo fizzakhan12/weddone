@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary ">
+    <div class="container">
+      <a href="" class="navbar-brand HALL">WEDDONE</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active nav1" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link nav1" href="booking.html">Booking</a>
+          <a class="nav-item nav-link nav1" href="signin.html">Sign in</a>
+          <a class="nav-item nav-link nav1" href="contactus.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+  <div class="container-fluid container1 py-5">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 col-xs-12 form1  " style="border-right: 2px solid black; margin-bottom: 20px;">
+
+        <center>
+          <h2>Sign up to become a Member</h2>
+        </center>
+        <br>
+
+
+        <form class="fm1" >
+
+
+          <label for="Email">Email</label>
+          <input type="email" placeholder="Enter your email" id="Email" class="form-control" required>
+          <br>
+          <label for="Password">Password</label>
+          <input type="password" placeholder="Enter your Password" id="password" class="form-control" maxlength="8"
+            required>
+          <small class="form-text text-muted">max 8 characters are allowed</small>
+          <br>
+          <label for="Password">Re-enter Password</label>
+          <input type="password" placeholder="Re-enter your Password" id="password" class="form-control" required>
+          <small class="form-text text-muted">max 8 characters are allowed</small>
+          <br>
+          <label for="Username">Username</label>
+          <input type="username" placeholder="Enter your username" id="username" class="form-control" required>
+
+          <br>
+          <label for="mobile">Mobile no.</label>
+          <input type="number" placeholder="Enter your mobile no." id="mobile" class="form-control" required>
+          <br>
+          <label for="Gender" class="gender">Gender</label>
+          <select class="form-control" required>
+            <option value="Male">Male</option>
+            <option value="female">Female</option>
+            <option value="custom">Custom</option>
+          </select>
+          <br>
+          <br>
+          <div class="form-check">
+
+            <input type="checkbox" id="accept-terms" class="form-check-input" required>
+            <label for="accept-terms" class="form-check-label">Accept terms &amp; conditions</label>
+          </div>
+
+          <br>
+
+          <div class="form-group row">
+            <div class="col text-left">
+              <button type="submit" class="btn btn-primary ">Sign Up</button>
+            </div>
+          </div>
+
+
+        </form>
+      </div>
+
+
+
+      <div class="col-lg-6 col-sm-12 col-12 signin form1">
+        <center>
+          <h2>If You're Already a Member Then Login</h2>
+        </center>
+        <br>
+        <form class="fm1" >
+          <label for="Email">Email/Username</label>
+          <input type="email || username" placeholder="Enter your email/username" id="Email" class="form-control"
+            required>
+          <br>
+          <label for="Password">Password</label>
+          <input type="password" placeholder="Enter your Password" id="password" class="form-control" required>
+          <br>
+
+
+          <div class="form-group row">
+            <div class="col text-left">
+              <button type="submit" class="btn btn-primary ">Login</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+
+    </div>
+  </div>
+
+
+  <div class="container-fluid bg-light" style=" height: 7vh; padding-top: 10px;"> copyright &copy; WEDDONE website</div>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+.nav1:hover{
+    /* box-shadow: inset 0 -8px 0 0 rgb(93, 205, 209); */
+    border-bottom:  solid cyan;
+    line-height: 20px;
+    padding-left: 5px;
+    
+}
+.nav1{
+    margin-right: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+
+.banquet{
+
+    opacity: 0.8;
+}
+.head1{
+    
+position: absolute;
+top: 380px;
+ 
+}
+h1{
+font-size: large;
+}
+.About{
+font-size: 40px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.p1{
+    color: white;
+    text-align: justify;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "item1 item1 item1 item1"
+                        "item2 item3 item3 item3"
+                        "item4 item4 item5 item5";
+}      
+.item1{
+    background-color:rgb(65, 65, 185);
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    grid-area: item1;
+
+
+}
+.item2{
+    background-color: tomato;
+    grid-area: item2;
+
+}
+.item3{
+    background-color: turquoise;
+    grid-area: item3;
+}
+.item4{
+    background-color: violet;
+    grid-area: item4;
+
+}
+.item5{
+    background-color: yellowgreen;
+    grid-area: item5;
+}
+
